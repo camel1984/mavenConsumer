@@ -26,3 +26,7 @@ task copyToLib(type: Copy) {
 }
 
 check.dependsOn copyToLib
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 100, 'seconds'
+}
