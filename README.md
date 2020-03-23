@@ -4,15 +4,7 @@ gradle build can generate all the archive artifacts.
 
 gradle build
 
-about various tips on gpg:
-
-https://stackoverflow.com/questions/27936119/gradle-uploadarchives-task-unable-to-read-secret-key
-
-gpg --export-secret-keys -o secring.gpg
-
-gpg --list-keys --keyid-format short
-
-gradle uploadArchives
+java -cp build/libs/camel-testlib-1.0-SNAPSHOT.jar:build/libs/commons-lang3-3.9.jar:build/libs/mavenConsumer.jar com.github.camel1984.maven.consumer.Consumer
 
 ------------------------------------------------------------
 Gradle 5.1
