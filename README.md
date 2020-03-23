@@ -6,6 +6,9 @@ gradle build
 
 java -cp build/libs/camel-testlib-1.0-SNAPSHOT.jar:build/libs/commons-lang3-3.9.jar:build/libs/mavenConsumer.jar com.github.camel1984.maven.consumer.Consumer
 
+
+java -cp build/libs/camel-testlib-1.0.jar:build/libs/commons-lang3-3.9.jar:build/libs/mavenConsumer.jar com.github.camel1984.maven.consumer.Consumer
+
 ------------------------------------------------------------
 Gradle 5.1
 ------------------------------------------------------------

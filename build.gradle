@@ -16,7 +16,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.camel1984:camel-testlib:1.0-SNAPSHOT'
+//    implementation 'com.github.camel1984:camel-testlib:1.0-SNAPSHOT'
+    implementation 'com.github.camel1984:camel-testlib:1.0'
     testImplementation 'junit:junit:4.11'
 }
 
